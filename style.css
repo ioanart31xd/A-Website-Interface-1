@@ -1,0 +1,150 @@
+/* correction css for extra white space on right side of page  */
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+/* navigation bar  */
+
+#title {
+  background-color: #219ebc;
+}
+
+.navbar {
+  padding: 1% 5%;
+  background-color: #e05780;
+  z-index: 2;
+}
+
+.navbar-brand {
+  font-family: "Satisfy", cursive;
+  font-size: 2.5rem;
+  color: #f8f7ff;
+}
+
+.nav-link {
+  font-family: "Lato", sans-serif;
+  color: #f8f7ff;
+}
+
+.navbar-nav {
+  margin: 0% 9%;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+/* site description and buttons */
+
+h1 {
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  font-size: 3.5rem;
+  color: #f8f7ff;
+  padding-top: 25px;
+  line-height: 1.2;
+}
+
+.description-style {
+  text-shadow: 0px 3px 14px #0e00ff;
+  color: #e05780;
+  font-family: "Satisfy", cursive;
+}
+
+.col-lg-6 {
+  height: 460px;
+}
+
+.row {
+  padding: 3% 5%;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.button-1 {
+  background-color: #e3427d;
+}
+
+.btn {
+  margin-top: 35px;
+}
+
+/* intro image  */
+
+.title-image {
+  width: 70%;
+  transform: rotate(25deg);
+  position: absolute;
+  left: 10%;
+  top: -15%;
+  border-radius: 8px;
+}
+
+.title-image {
+  -webkit-box-shadow: 0px 0px 30px 10px #e93d5c, 0px 0px 35px 15px #c223b6;
+  -moz-box-shadow: 0px 0px 30px 10px #e93d5c, 0px 0px 35px 15px #c223b6;
+  box-shadow: 0px 0px 30px 10px #e93d5c, 0px 0px 35px 15px #c223b6;
+}
+
+.picture-div {
+  position: relative;
+}
+
+/* media viewports  */
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+    transform: rotate(0deg);
+  }
+
+  .buttons-media {
+    margin-bottom: 50px;
+  }
+}
+
+/* features section  */
+
+#features {
+  background-color: #e05780;
+  z-index: 2;
+  position: relative;
+}
+
+.feature-box {
+  text-align: center;
+  color: #f8f7ff;
+  padding: 0% 10%;
+}
+
+.fas {
+  color: #ffcdb2;
+  margin-bottom: 1rem;
+}
+
+.fas:hover {
+  color: #f8f7ff;
+}
+
+h3 {
+  font-family: "Satisfy", cursive;
+}
+
+p {
+  font-family: "Lato", sans-serif;
+}
+
+.source {
+  font-size: 0.8em;
+  margin: 0px;
+  text-align: center;
+  background-color: #e05780;
+  color: white;
+}
